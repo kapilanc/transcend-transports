@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent a Car</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .product-card {
+            border: 1px solid #de0c0c;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            background-color: #ffffff;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s; 
+            border-radius: 10px;
+        }
+
+        .product-card:hover {
+            transform: scale(1.03); 
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product-card h3 {
+            font-family:'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        .product-card p {
+            font-size: 1rem;
+        }
+
+        .product-card button {
+            background-color: #070707;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product-card button:hover {
+            background-color: #ff6600;
+        }
+
+       
+        .container {
+            padding: 20px;
+        }
+
+       
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #0b0b0b;
+            font-family:'Times New Roman', Times, serif;
+        }
+        #a{
+            font-size: xx-large;
+            font-weight: bolder;
+            text-align:start;
+        }
+        #a1{
+            font-weight: bold;
+            margin-right: 70px;
+            
+        }
+        .btnn{
+            background-color: #070707;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+}
+.btnn:hover{
+    background-color: #ff6600;
+}
+        
+    </style>
+</head> 
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="# " id="a">Car Rental</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html" id="a1">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="boot.html" id="a1">Cars</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="bike.html" id="a1">Bikes</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html" id="a1">Terms & Conditions</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html" id="a1">Booking</a> <!-- Removed extra space here -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Luxuary Cars</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="c2.jpeg" alt="Product 1">
+                    <div class="text">
+                    <h3>XUV 700</h3>
+                    <p><strong>Model:</strong>2019<br>
+                    <strong>Type:</strong>Petrol<br>
+                    <strong>Mielage:</strong>12 kmpl<br>
+                    <strong>Transmission:</strong>Manual<br></p>
+                </div>
+                    <p><strong>Price:</strong>₹5,200.00/day</p>
+                    <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="c5.jpg" alt="Product 2">
+                    <h3>Range Rover</h3>
+                    <p><strong>Model:</strong>2020<br>
+                        <strong>Type:</strong>Petrol<br>
+                        <strong>Mielage:</strong>13 kmpl<br>
+                        <strong>Transmission:</strong>Manual<br></p>
+                    <p><strong>Price:</strong>₹5,300.00/day</p>
+                    <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="c9.jpg" alt="Product 3">
+                    <h3 style="padding-top: 17px;">Innova Crysta</h3>
+                    <p><strong>Model:</strong>2020<br>
+                        <strong>Type:</strong>Diesel<br>
+                        <strong>Mielage:</strong>12 kmpl<br>
+                        <strong>Transmission:</strong>Automatic<br></p>
+                    <p><strong>Price:</strong>₹5,900.00/day</p>
+                   <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                </div>
+            </div>
+            <div class="container">
+                <h1>Premium Cars</h1></div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="c1.png" alt="Product 3">
+                    
+                    <h3 style="padding-top: 40px;">Brezza</h3>
+                    <p><strong>Model:</strong>2017<br>
+                        <strong>Type:</strong>Diesel<br>
+                        <strong>Mielage:</strong>15 kmpl<br>
+                        <strong>Transmission:</strong>Manual<br></p>
+                    <p><strong>Price:</strong>₹2,800.00</p>
+                    <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="c3.jpg" alt="Product 3">
+                    <h1></h1>
+                    <h3>Verna</h3>
+                    <p><strong>Model:</strong>2017<br>
+                        <strong>Type:</strong>Petrol<br>
+                        <strong>Mielage:</strong>14 kmpl<br>
+                        <strong>Transmission:</strong>Manual<br></p>
+                    <p><strong>Price:</strong>₹2,500.00</p>
+                    <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="c7.jpg" alt="Product 3">
+                    <h1></h1>
+                    <h3 style="padding-top: 35px;">XUV 300</h3>
+                    <p><strong>Model:</strong>2019<br>
+                        <strong>Type:</strong>Diesel<br>
+                        <strong>Mielage:</strong>14 kmpl<br>
+                        <strong>Transmission:</strong>Manual<br></p>
+                    <p><strong>Price:</strong>₹2,800.00</p>
+                    <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                </div>
+            </div>
+            
+            <div class="container">
+                <h1>Budget Cars</h1></div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="c4.jpg" alt="Product 3">
+                        <h1></h1>
+                        <h3>Alto 800 </h3>
+                        <p><strong>Model:</strong>2016<br>
+                            <strong>Type:</strong>Petrol<br>
+                            <strong>Mielage:</strong>17 kmpl<br>
+                            <strong>Transmission:</strong>Manual<br></p>
+                        <p><strong>Price:</strong>₹1,500.00</p>
+                        <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                    </div>
+                </div>
+                
+                    <div class="col-md-4">
+                        <div class="product-card">
+                            <img src="c6.jpg" alt="Product 3">
+                            <h1></h1>
+                            <h3>Santro </h3>
+                            <p><strong>Model:</strong>2016<br>
+                                <strong>Type:</strong>Petrol<br>
+                                <strong>Mielage:</strong>13.5 kmpl<br>
+                                <strong>Transmission:</strong>Manual<br></p>
+                            <p><strong>Price:</strong>₹1,600.00</p>
+                            <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-card">
+                            <img src="c10.jpg" alt="Product 3" width="270">
+                            <h1></h1>
+                            <h3>Swift</h3>
+                            <p><strong>Model:</strong>2021<br>
+                                <strong>Type:</strong>Petrol<br>
+                                <strong>Mielage:</strong>14 kmpl<br>
+                                <strong>Transmission:</strong>Automatic<br></p>
+                            <p><strong>Price:</strong>₹1,700.00</p>
+                            <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-card">
+                            <img src="c13.jpg" alt="Product 3">
+                            <h1></h1>
+                            <h3>Dzire</h3>
+                            <p><strong>Model:</strong>2019<br>
+                                <strong>Type:</strong>Petrol<br>
+                                <strong>Mielage:</strong>14 kmpl<br>
+                                <strong>Transmission:</strong>Manual<br></p>
+                            <p><strong>Price:</strong>₹1,800.00</p>
+                            <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                        </div>
+                    </div> <div class="col-md-4">
+                        <div class="product-card">
+                            <img src="c14.jpg" alt="Product 3" width="270">
+                            <h1></h1>
+                            <h3>Etios </h3>
+                            <p><strong>Model:</strong>2020<br>
+                                <strong>Type:</strong>Petrol<br>
+                                <strong>Mielage:</strong>12 kmpl<br>
+                                <strong>Transmission:</strong>Etios<br></p>
+                            <p><strong>Price:</strong>₹1,900.00</p>
+                            <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                        </div>
+                    </div> <div class="col-md-4">
+                        <div class="product-card">
+                            <img src="c12.jpg" alt="Product 3">
+                            <h1></h1>
+                            <h3>Ciaz</h3>
+                            <p><strong>Model:</strong>2021<br>
+                                <strong>Type:</strong>Petrol<br>
+                                <strong>Mielage:</strong>13 kmpl<br>
+                                <strong>Transmission:</strong>Automatic<br></p>
+                            <p><strong>Price:</strong>₹2,000.00</p>
+                            <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                        </div>
+                    </div>
+
+           </div>
+    </div>
+    <center><li type="none"><a href="index.html"><button type="submit" class="btnn">Back</button></a></center><br><br><Br>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent a Bike</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .product-card {
+            border: 1px solid #de1d1d;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s; 
+            border-radius: 10px;
+        }
+
+        .product-card:hover {
+            transform: scale(1.03); 
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product-card h3 {
+            font-family:'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        .product-card p {
+            font-size: 1rem;
+        }
+
+        .product-card button {
+            background-color: #070707;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .product-card button:hover {
+            background-color: #ff6600;
+        }
+
+       
+        .container {
+            padding: 20px;
+        }
+
+       
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #0b0b0b;
+            font-family:'Times New Roman', Times, serif;
+        }
+        #a{
+            font-size: xx-large;
+            font-weight: bolder;
+            text-align:start;
+        }
+        #a1{
+            font-weight: bold;
+            margin-right: 70px;
+            
+        }
+        
+.btnn{
+            background-color: #070707;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+}
+.btnn:hover{
+    background-color: #ff6600;
+}
+    </style>
+</head> 
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="# " id="a">Bike Rental</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html" id="a1">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="boot.html" id="a1">Cars</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="bike.html" id="a1">Bikes</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html" id="a1">Terms & Conditions</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html" id="a1">Booking</a> <!-- Removed extra space here -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Luxuary Bikes</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="b1.jpeg" alt="Product 1"  width="200px">
+                    <div class="text">
+                    <h3 style="padding-top: 17px;">BMW g310r</h3>
+                    <p><strong>Model:</strong>2018<br>
+                    <strong>Type:</strong>Petrol<br>
+                    <strong>Mielage:</strong>18 kmpl<br>
+                    <strong>Speed:</strong>6 speed<br></p>
+                </div>
+                    <p><strong>Price:</strong>₹5,500.00/day</p>
+                    <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="b2.jpg" alt="Product 2">
+                    <h3 >Ninja 400</h3>
+                    <p><strong>Model:</strong>2020<br>
+                        <strong>Type:</strong>Petrol<br>
+                        <strong>Mielage:</strong>17 kmpl<br>
+                        <strong>Speed:</strong>6 speed<br></p>
+                    <p><strong>Price:</strong>₹6,300.00/day</p>
+                    <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="b3.jpeg" alt="Product 3" width="180px">
+                    <h3>Benelli 600i</h3>
+                    <p><strong>Model:</strong>2019<br>
+                        <strong>Type:</strong>Petrol<br>
+                        <strong>Mielage:</strong>16 kmpl<br>
+                        <strong>Speed:</strong>6 speed<br></p>
+                    <p><strong>Price:</strong>₹7,900.00/day</p>
+                    
+                    <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                </div>
+            </div>
+            <div class="container">
+                <h1>Adventure Bikes</h1></div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="ba1.jpeg" alt="Product 3">
+                    <h1></h1>
+                    <h3>Himalayan 400</h3>
+                    <p><strong>Model:</strong>2018<br>
+                        <strong>Type:</strong>Petrol<br>
+                        <strong>Mielage:</strong>20 kmpl<br>
+                        <strong>Speed:</strong>6 speed<br></p>
+                    <p><strong>Price:</strong>₹4,999.00</p>
+                    <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="ba2.jpeg" alt="Product 3" width="270px">
+                    <h1></h1>
+                    <h3>Adventure 390</h3>
+                    <p><strong>Model:</strong>2019<br>
+                        <strong>Type:</strong>Petrol<br>
+                        <strong>Mielage:</strong>22 kmpl<br>
+                        <strong>Speed:</strong>6 speed<br></p>
+                    <p><strong>Price:</strong>₹5,999.00</p>
+                    <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="ba3.jpeg" alt="Product 3"  width="340px">
+                    <h1></h1>
+                    <h3>Xpulse 200</h3>
+                    <p><strong>Model:</strong>2020<br>
+                        <strong>Type:</strong>Petrol<br>
+                        <strong>Mielage:</strong>35 kmpl<br>
+                        <strong>Speed:</strong>6 speed<br></p>
+                    <p><strong>Price:</strong>₹5,500.00</p>
+                    <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                </div>
+            </div>
+            
+            <div class="container">
+                <h1>Budget Bikes</h1></div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img src="b4.jpeg" alt="Product 3">
+                        <h1></h1>
+                        <h3>Pulsar 180 </h3>
+                        <p><strong>Model:</strong>2019<br>
+                            <strong>Type:</strong>Petrol<br>
+                            <strong>Mielage:</strong>38 kmpl<br>
+                            <strong>Speed:</strong>5 speed<br></p>
+                        <p><strong>Price:</strong>₹1,500.00</p>
+                        <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                    </div>
+                </div>
+                
+                    <div class="col-md-4">
+                        <div class="product-card">
+                            <img src="b5.jpeg" alt="Product 3" width="250px">
+                            <h1></h1>
+                            <h3>Apache RTR 180</h3>
+                            <p><strong>Model:</strong>2018<br>
+                                <strong>Type:</strong>Petrol<br>
+                                <strong>Mielage:</strong>30 kmpl<br>
+                                <strong>Speed:</strong>5 speed<br></p>
+                            <p><strong>Price:</strong>₹1,600.00</p>
+                            <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-card">
+                            <img src="b6.jpeg" alt="Product 3">
+                            <h1></h1>
+                            <h3>Honda Unicorn</h3>
+                            <p><strong>Model:</strong>2021<br>
+                                <strong>Type:</strong>Petrol<br>
+                                <strong>Mielage:</strong>45 kmpl<br>
+                                <strong>Speed:</strong>5 speed<br></p>
+                            <p><strong>Price:</strong>₹1,700.00</p>
+                            <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-card">
+                            <img src="b7.jpeg" alt="Product 3"width="350px">
+                            <h1></h1>
+                            <h3>Honda Activa</h3>
+                            <p><strong>Model:</strong>2019<br>
+                                <strong>Type:</strong>Petrol<br>
+                                <strong>Mielage:</strong>30 kmpl<br>
+                            <p><strong>Price:</strong>₹1,800.00</p>
+                            <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                        </div>
+                    </div> <div class="col-md-4">
+                        <div class="product-card">
+                            <img src="b8.jpeg" alt="Product 3">
+                            <h1></h1>
+                            <h3>TVS Jupiter </h3>
+                            <p><strong>Model:</strong>2020<br>
+                                <strong>Type:</strong>Petrol<br>
+                                <strong>Mielage:</strong>29 kmpl<br>
+                            <p><strong>Price:</strong>₹1,900.00</p>
+                            <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                        </div>
+                    </div> <div class="col-md-4">
+                        <div class="product-card">
+                            <img src="b9.jpeg" alt="Product 3">
+                            <h1></h1>
+                            <h3>TVS Zest</h3>
+                            <p><strong>Model:</strong>2021<br>
+                                <strong>Type:</strong>Petrol<br>
+                                <strong>Mielage:</strong>35 kmpl<br>
+                            <p><strong>Price:</strong>₹2,000.00</p>
+                            <a href="contact.html"> <button class="btn btn-primary">Book Now</button></a>
+                        </div>
+                    </div>
+
+           </div>
+    </div>
+    <center><li type="none"><a href="index.html"><button type="submit" class="btnn">Back</button></a></center><br><br><Br>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
